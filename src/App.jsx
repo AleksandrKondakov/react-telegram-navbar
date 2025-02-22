@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import styles from './App.module.scss';
 
 function App() {
-    const [chatSettings, setNavbarOpen] = useState(false);
+    const [navbarOpen, setNavbarOpen] = useState(false);
     const [isHovering, setIsHovering] = useState(false);
 
     const handleMouseEnter = useCallback(() => setIsHovering(true), []);
@@ -39,8 +39,8 @@ function App() {
         <div className={styles.content}>
             <h1>Навигация Telegram</h1>
             <div className={styles.telegramNavbar}>
-            <div className={`${styles.listContainer} ${chatSettings ? styles.active : ''}`}>
-            <div className={styles.settingsButton} onClick={(event) => { setNavbarOpen(!chatSettings); createRipple(event); }}>
+            <div className={`${styles.listContainer} ${navbarOpen ? styles.active : ''}`}>
+            <div className={styles.settingsButton} onClick={(event) => { setNavbarOpen(!navbarOpen); createRipple(event); }}>
                         <span className={styles.line}></span>
                         <span className={styles.line}></span>
                     <span className={styles.line}></span>

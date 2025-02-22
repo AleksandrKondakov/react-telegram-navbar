@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-telegram-navbar/static/css/main.0c29a00b.css",
+    "main.js": "/react-telegram-navbar/static/js/main.d540f0c7.js",
+    "index.html": "/react-telegram-navbar/index.html",
+    "main.0c29a00b.css.map": "/react-telegram-navbar/static/css/main.0c29a00b.css.map",
+    "main.d540f0c7.js.map": "/react-telegram-navbar/static/js/main.d540f0c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c29a00b.css",
+    "static/js/main.d540f0c7.js"
+  ]
+}
